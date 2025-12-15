@@ -2,7 +2,19 @@
 public class main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		int temperature = 35;
+		
+		if (temperature > 30) {
+			
+			System.out.println("Жарко");
+			
+		} else if (temperature >= 15) {
+			
+			System.out.println("Приятная погода");
+			
+		} else {
+			System.out.print("Холодно");
+		}
 
 	}
 

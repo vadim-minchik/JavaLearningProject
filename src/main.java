@@ -14,7 +14,7 @@ public class main {
 		Scanner scanner = new Scanner(System.in);
 //     Контроль температуры		
 //		
-//		начало конец 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //		
 //		int temperature = 35;
 //		
@@ -30,7 +30,8 @@ public class main {
 //			System.out.print("Холодно");
 //		}
 //		
-//		конец 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		вспомнил операторы
 //		
 //		final boolean isWeekend = false;
 //		final boolean isHoliday = true;
@@ -63,30 +64,34 @@ public class main {
 //		        break;
 //		    }
 //		}
+//		
 //		System.out.println("Цикл завершен оператором break.");
-		
-		String action;
-		String sum = "+";
-		String minus = "-";
-	    
-	    System.out.println("Ведите операцию что вы хотите сделать");
-	    action = scanner.nextLine();
-	    
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////		
+//  	мини калькулятор
+//		String action;
+//		String sum = "+";
+//		String minus = "-";
+//	    
+//	    System.out.println("Ведите операцию что вы хотите сделать");
+//	    action = scanner.nextLine();
+//	    
 //	   		 if (action == minus)
 //	    Оператор == в Java используется для сравнения ссылок на объекты а не их фактического содержимого, а это спец. метод в спец. классе .equals()
-	    
-	    if (action.equals(sum)) {
-	    	System.out.println("Введите числа чтоб их сложить");
-	    	int result = Sum(scanner.nextInt(), scanner.nextInt()); 
-		    System.out.println("Сумма: " + result);
-		} else if (action.equals(minus)) {
-			System.out.println("Введите числа чтоб их отнять");
-			int result = Minus(scanner.nextInt(), scanner.nextInt()); 
-		    System.out.println("Отнимание: " + result);
-		} else {
-			System.out.println("Вы ввели белеберду");
-		}
-	    
+//	    
+//	    if (action.equals(sum)) {
+//	    	System.out.println("Введите числа чтоб их сложить");
+//	    	int result = Sum(scanner.nextInt(), scanner.nextInt()); 
+//		    System.out.println("Сумма: " + result);
+//		} else if (action.equals(minus)) {
+//			System.out.println("Введите числа чтоб их отнять");
+//			int result = Minus(scanner.nextInt(), scanner.nextInt()); 
+//		    System.out.println("Отнимание: " + result);
+//		} else {
+//			System.out.println("Вы ввели белеберду");
+//		}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	    
+		
+		
 		
 
 	}

@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class main {
 	
-	public static int sum( int number1, int number2) {
+	public static int Sum( int number1, int number2) {
 	    return number1 + number2; 
 	}
 
-    public static int minus(int number1, int number2) {
+    public static int Minus(int number1, int number2) {
     return number1 - number2; 
     }
 
@@ -66,11 +66,27 @@ public class main {
 //		System.out.println("Цикл завершен оператором break.");
 		
 		String action;
+		String sum = "+";
+		String minus = "-";
 	    
-	    System.out.println("Ведите числа чтоб их сложить");
+	    System.out.println("Ведите операцию что вы хотите сделать");
+	    action = scanner.nextLine();
 	    
-	    int result = sum(scanner.nextInt(), scanner.nextInt()); 
-	    System.out.println("Сумма: " + result);
+//	   		 if (action == minus)
+//	    Оператор == в Java используется для сравнения ссылок на объекты а не их фактического содержимого, а это спец. метод в спец. классе .equals()
+	    
+	    if (action.equals(sum)) {
+	    	System.out.println("Введите числа чтоб их сложить");
+	    	int result = Sum(scanner.nextInt(), scanner.nextInt()); 
+		    System.out.println("Сумма: " + result);
+		} else if (action.equals(minus)) {
+			System.out.println("Введите числа чтоб их отнять");
+			int result = Minus(scanner.nextInt(), scanner.nextInt()); 
+		    System.out.println("Отнимание: " + result);
+		} else {
+			System.out.println("Вы ввели белеберду");
+		}
+	    
 		
 
 	}

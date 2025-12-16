@@ -1,7 +1,10 @@
+import java.util.Iterator;
+import java.util.Scanner;
 
 public class main {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 //     Контроль температуры		
 //		
 //		начало конец 
@@ -21,15 +24,41 @@ public class main {
 //		}
 //		
 //		конец 
+//		
+//		final boolean isWeekend = false;
+//		final boolean isHoliday = true;
+//		
+//		 if (isWeekend || isHoliday) {
+//	            System.out.println("Завтра выходной!");
+//	        } else {
+//	            System.out.println("Завтра рабочий день.");
+//        } 
 		
-		boolean isWeekend = false;
-		boolean isHoliday = true;
+		int high = 100;
+		boolean yes = true;
 		
-		 if (isWeekend || isHoliday) {
-	            System.out.println("Завтра выходной!");
-	        } else {
-	            System.out.println("Завтра рабочий день.");
-	        }
+		for (int i = 0; i <= high; i++) {
+//			System.out.println(i + " От 1 до 100");
+		}
+		
+		
+		
+		
+		//
+		
+		String input = "";
+
+		while (true) {
+		    System.out.println("Введите 'exit' для выхода:");
+		    input = scanner.nextLine();
+
+		    if (input.equals("exit")) {
+		        break;
+		    }
+		}
+		System.out.println("Цикл завершен оператором break.");
+		
+		 
 
 	}
 

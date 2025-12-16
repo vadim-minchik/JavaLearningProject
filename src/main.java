@@ -2,6 +2,10 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 public class main {
+	
+	public static int sum(int a, int b) {
+	    return a + b; 
+	}
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -58,7 +62,11 @@ public class main {
 //		}
 //		System.out.println("Цикл завершен оператором break.");
 		
-		 
+		int number1 = 5;
+	    int number2 = 7;
+	    
+	    int result = sum(number1, number2); 
+	    System.out.println("Сумма: " + result);
 		
 
 	}

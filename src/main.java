@@ -33,32 +33,33 @@ public class main {
 //	        } else {
 //	            System.out.println("Завтра рабочий день.");
 //        } 
-		
-		int high = 100;
-		boolean yes = true;
-		
-		for (int i = 0; i <= high; i++) {
+//		
+//		int high = 100;
+//		boolean yes = true;
+//		
+//		for (int i = 0; i <= high; i++) {
 //			System.out.println(i + " От 1 до 100");
-		}
-		
-		
-		
-		
-		//
-		
-		String input = "";
-
-		while (true) {
-		    System.out.println("Введите 'exit' для выхода:");
-		    input = scanner.nextLine();
-
-		    if (input.equals("exit")) {
-		        break;
-		    }
-		}
-		System.out.println("Цикл завершен оператором break.");
+//		}
+//		
+//		while (yes) {
+//			++high;
+//			System.out.println(yes + " " + high);
+//		}
+//		
+//		String input = "";
+//
+//		while (true) {
+//		    System.out.println("Введите 'exit' для выхода:");
+//		    input = scanner.nextLine();
+//
+//		    if (input.equals("exit")) {
+//		        break;
+//		    }
+//		}
+//		System.out.println("Цикл завершен оператором break.");
 		
 		 
+		
 
 	}
 

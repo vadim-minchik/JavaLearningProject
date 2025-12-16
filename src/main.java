@@ -1,10 +1,9 @@
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class main {
 	
-	public static int sum(int a, int b) {
-	    return a + b; 
+	public static int sum( int number1, int number2) {
+	    return number1 + number2; 
 	}
 
 	public static void main(String[] args) {
@@ -62,10 +61,12 @@ public class main {
 //		}
 //		System.out.println("Цикл завершен оператором break.");
 		
-		int number1 = 5;
-	    int number2 = 7;
+		int number3;
+	    int number4;
 	    
-	    int result = sum(number1, number2); 
+	    System.out.println("Ведите числа чтоб их сложить");
+	    
+	    int result = sum(number4 = scanner.nextInt(), number4 = scanner.nextInt()); 
 	    System.out.println("Сумма: " + result);
 		
 
